@@ -16,4 +16,15 @@ public class AccountTest {
         int balance = ac.addBalance(100);
         assertThat(100);
     }
+
+    @Test
+    public void withdrawAmountToReduceTheBalance(){
+
+        Account ac = new Account();
+
+        int balance = ac.withdrawBalance(100);
+        assertThat(100);
+
+    }
+
 }

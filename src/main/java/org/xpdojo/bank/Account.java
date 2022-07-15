@@ -11,4 +11,10 @@ public class Account {
         return balance;
     }
 
+    public int withdrawBalance(int amount){
+
+        balance = balance - amount;
+        return balance;
+    }
+
 }
