@@ -13,7 +13,7 @@ public class AccountTest {
 
         Account ac = new Account();
 
-        int balance = ac.addBalance();
-        assertThat(100,balance);
+        int balance = ac.addBalance(100);
+        assertThat(100);
     }
 }
